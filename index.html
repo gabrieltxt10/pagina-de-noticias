@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <div class="header-container">
+            <div class="logo" tabindex="0" aria-label="Logo do Portal de Notícias">
+                <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="32" cy="32" r="30" stroke="none" />
+                    <path fill="white" d="M20 24h24v4H20zM20 32h24v4H20zM20 40h24v4H20z" />
+                </svg>
+                Notícias-Agora
+            </div>
+            <!--Menu de Navegação-->
+            <nav>
+                <a href="#featured">Destaque</a>
+                <a href="#card1">Notícias</a>
+                <a href="#card2">Esportes</a>
+                <a href="#card3">Tecnologia</a>
+                <a href="#card4">Entretenimento</a>
+            </nav>
+        </div>
+    </header>
+    <!--Conteúdo Principal-->
+    <main>
+        <article id="featured" class="featured">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+                alt="Notícia destaque" />
+            <div class="featured-content">
+                <h2>Notícia Principal em Destaque</h2>
+                <p>Uma notícia importante e interessante para atrair a atenção dos leitores logo no topo do portal.</p>
+            </div>
+        </article>
+        <article id="card1" class="card">
+            <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80"
+                alt="Notícia 1" />
+            <div class="card-content">
+                <h3>Notícias Recentes</h3>
+                <p>Atualizações e fatos recentes que você precisa saber.</p>
+            </div>
+        </article>
+        <article id="card2" class="card">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80"
+                alt="Esportes" />
+            <div class="card-content">
+                <h3>Notícias de Esportes</h3>
+                <p>Últimas notícias e resultados esportivos.</p>
+            </div>
+        </article>
+        <article id="card3" class="card">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80"
+                alt="Tecnologia" />
+            <div class="card-content">
+                <h3>Notícias de Tecnologia</h3>
+                <p>Novidades e tendências do mundo tecnológico.</p>
+            </div>
+        </article>
+        <article id="card4" class="card">
+            <img src="https://images.unsplash.com/photo-1497493292307-31c376b6e479?auto=format&fit=crop&w=600&q=80"
+                alt="Entretenimento" />
+            <div class="card-content">
+                <h3>Entretenimento</h3>
+                <p>Destaques em filmes, séries e cultura pop.</p>
+            </div>
+        </article>
+    </main>
+    <!--Rodapé-->
+    <footer>
+        &copy; 2025 Notícias-Agora. Todos os direitos reservados.
+    </footer>
+</body>
+
+</html>
